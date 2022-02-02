@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-Quartile, in itself, is an embedded solution to those new emerging artists who are finding their way into web3 space and calibrating a revenue stream out of the NFT marketplaces.
+Quartile, in itself, is an embedded solution to those new emerging artists who are finding their way into web3 space and calibrating a revenue stream out of the NFT marketplaces on NEAR and EVM-compatible chains.
 
 It can be interpreted as a virtual assistant to facilitate you while buying and minting NFTs from various NFT Marketplaces and save your time from cutting the process down to just two clicks. It will ease up the process of buying and selling NFTs off the platform, making it more reliable, user-friendly and increasingly accessible.
 
@@ -22,7 +22,7 @@ Hey, I would like to mint this NFT as !MyFirstNFT at 20% royalty for 30000000000
 
 
 ## **Payment Gateway**
-Bidding for buying an NFT (ERC721 or ERC1155) with static price requires 2 identiication objects i.e. requires sending the link to an NFT (format: #contract:tokenID) and purchase amount in GWEI format (conversion: 1 ETH = 10^9 GWEI).
+Bidding for buying an NFT (NEP17 or ERC721 or ERC1155) with static price requires 2 identification objects i.e. requires sending the link to an NFT (format: #contract:tokenID) and purchase amount in GWEI format (conversion: 1 ETH = 10^9 GWEI).
 ```
 Hey, I would like to buy this NFT #0x6ede7f3c26975aad32a475e1021d8f6f39c89d82:102269783871445009689193659504668254296443359178228636185345251705965641803081 for 3000000000 GWEI
 ```
@@ -49,7 +49,7 @@ Hey, I would like to deposit $30 to my ETH wallet
 
 - Lazy Minting NFTs with any image file accessible over the internet.
 - Buying and Selling NFTs through Twitter DMs, just two clicks away.
-- Custom Royalty Splits across users and creators for better revenue splits and incentivising through governance token RARI.
+- Custom Royalty Splits across users and creators for better revenue splits and incentivising through governance token like e.g. PARAS, RARI.
 - Customizable Attribute selection and Real-time Data Interpretation from normal texts in DMs to generate user focused NFT.
 - Public Access to Web3 Storage and NFT Storage faciality powered by IPFS to store precious moments on decentralized network.
 - Circle powered Payment Solutions from transferring assets across wallets to funding wallets with Business Accounts for on chain transactions.
@@ -58,6 +58,7 @@ Hey, I would like to deposit $30 to my ETH wallet
 
 ### TBA (Work In Progress)
 - Live Limited Auctions on Twitter, allowing users to race behind buying a famous NFT from a renowned artists.
+- Adding **AURORA** Rainbow bridge into the DApp in order to provide users an upper hand over purchasing **NEAR NFTs** with **ERC20** tokens.
 - Air Drops to volunteer participants, contributing actively in engagements and those who have their wallet address associated with profile description.
 - NFTs mintable only by specific address in case of ownership.
 - Expanding the services to multiple NFT marketplaces including CocoNFT, Zerion, Mintgate and Cyber.
