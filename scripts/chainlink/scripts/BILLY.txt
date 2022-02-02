@@ -1,0 +1,32 @@
+Running 'vrf_scripts\01_deploy_vrf.py::main'...
+On network kovan
+Transaction sent: 0x4435e12656128b48a365fd4be89dd2774c94e5dd9aafc900ad9f233a0c22e2a6
+  Gas price: 5.0 gwei   Gas limit: 417782   Nonce: 153
+  VRFConsumer.constructor confirmed - Block: 26466113   Gas used: 379802 (90.91%)
+  VRFConsumer deployed at: 0xeA6DdF463D6CD447df6D31b59d4F53b0b08f1906
+
+INFO: Could not find files for the given pattern(s).
+Brownie v1.14.6 - Python development framework for Ethereum
+
+d:\language support and variables\python\python39\lib\site-packages\brownie\project\main.py:714: BrownieEnvironmentWarning: Loaded project has a root folder of 'D:\Projects\Triquetra\chainlink' which is different from the current working directoryChainlinkProject is the active project.
+
+Running 'vrf_scripts\02_request_randomness.py::main'...
+Transaction sent: 0x9e5fc09fe54a47860add412824e55743be83fe1b94359c2df8bfd98e2d95e381
+  Gas price: 5.0 gwei   Gas limit: 57703   Nonce: 154
+  LinkTokenInterface.transfer confirmed - Block: 26466138   Gas used: 52458 (90.91%)
+
+Funded 0xeA6DdF463D6CD447df6D31b59d4F53b0b08f1906
+This transaction already has 2 confirmations.
+Transaction sent: 0x1d57b647294170adf50258be6881d8bc2e65dac5cf33dfd39003c65ef40a1463
+  Gas price: 5.0 gwei   Gas limit: 167382   Nonce: 155
+  VRFConsumer.getRandomNumber confirmed - Block: 26466141   Gas used: 137166 (81.95%)
+
+Requested!
+PS D:\Projects\Triquetra\chainlink\scripts> INFO: Could not find files for the given pattern(s).
+Brownie v1.14.6 - Python development framework for Ethereum
+
+d:\language support and variables\python\python39\lib\site-packages\brownie\project\main.py:714: BrownieEnvironmentWarning: Loaded project has a root folder of 'D:\Projects\Triquetra\chainlink' which is different from the current working directory  warnings.warn(
+ChainlinkProject is the active project.
+
+Running 'vrf_scripts\03_read_random_number.py::main'...
+31946807533912037513845233300888330004027666627290878833989991478328372959224
