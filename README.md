@@ -92,9 +92,3 @@ cd Quartile
 venv\Scripts\activate
 python scripts/Trigger.py
 ```
-
-<hr />
-
-# Acknowledgements
-
-- [NFT Vision Hack - Rarible Track](https://nftvisionhack.com/) : 1st Prize Winner
