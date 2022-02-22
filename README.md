@@ -9,7 +9,19 @@ It can be interpreted as a virtual assistant to facilitate you while buying and 
 From now on......*"You can go for a walk in the evening scrolling through tweets wondering which cool one to buy and just DM the bot to buy one, it will do everything for you, of course except **Private Key** signature."*
 
 
-## **Lazy Minting**
+## **Minting (NEAR Chain)**
+Minting requires users to send all the necessary attributes including royalty splits, if at all wanted; be send in the message.
+
+- NFT Name = !x
+- Royalty Split = x$number
+- Attributes = [attribute:value]
+
+```
+Hey I would like to mint this as an NFT !METABUILD2 on near with royalty split of benjiman$2000 mike$1000 josh$500 https://bafybeiftczwrtyr3k7a2k4vutd3amkwsmaqyhrdzlhvpt33dyjivufqusq.ipfs.dweb.link/goteam-gif.gif/
+```
+
+
+## **Lazy Minting (EVM Chains)**
 Lazy Minting requires users to send all the necessary attributes including royalty splits, if at all wanted; be send in the message.
 
 - NFT Name = !x
